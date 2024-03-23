@@ -1,0 +1,39 @@
+{
+  "name": "consequaturquo",
+  "version": "1.0.0",
+  "description": "Node module for ethereum wallet address creation and validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KurtisSchroeder/consequaturquo.git"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "keywords": [
+    "ethereum",
+    "utility",
+    "blockchain",
+    "crypto",
+    "validator",
+    "nodejs",
+    "voluptatem"
+  ],
+  "author": "ConorFay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KurtisSchroeder/consequaturquo.git/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "ethers": "^3.0.8",
+    "keythereum": "1.0.2"
+  }
+}
